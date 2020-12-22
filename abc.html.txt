@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('black');
+
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+    })
+    $(document).ready(function(){
+        $(".menu h4").click(function(){
+            $("nav ul").toogleClass("active")
+        })
+    })
+    </script>
+    
+</head>
+<body>
+    <div class="responsive-bar">
+        <div class="menu">
+            <h4>Menu</h4>
+        </div>
+    </div>
+    <nav>   
+        <div class='logo'>
+            <img src="logo.png">
+        </div>
+       
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a  href="#">Add Cart</li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="sec1">
+
+    </section>
+    <section class="sec2">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis voluptate doloremque doloribus vitae earum. Alias doloribus ex,
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas maxime vel alias unde minu\
+        animi vitae nesciunt error enim aspernatur tempore doloremque amet quia beatae, temporibus voluptatum quos nemo eum.
+        reprehenderit minus accusamus minima. Labore totam nihil, perspiciatis tenetur sed est illo porro!</p>
+    </section>
+    <section class="sec3">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis voluptate doloremque doloribus vitae earum. Alias doloribus ex,
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas maxime vel alias unde minu\
+            animi vitae nesciunt error enim aspernatur tempore doloremque amet quia beatae, temporibus voluptatum quos nemo eum.
+            reprehenderit minus accusamus minima. Labore totam nihil, perspiciatis tenetur sed est illo porro!</p>
+    </section>
+    <section class="sec4">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis voluptate doloremque doloribus vitae earum. Alias doloribus ex,
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas maxime vel alias unde minu\
+            animi vitae nesciunt error enim aspernatur tempore doloremque amet quia beatae, temporibus voluptatum quos nemo eum.
+            reprehenderit minus accusamus minima. Labore totam nihil, perspiciatis tenetur sed est illo porro!</p>
+    </section>
+    <section class="sec5">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis voluptate doloremque doloribus vitae earum. Alias doloribus ex,
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas maxime vel alias unde minu\
+            animi vitae nesciunt error enim aspernatur tempore doloremque amet quia beatae, temporibus voluptatum quos nemo eum.
+            reprehenderit minus accusamus minima. Labore totam nihil, perspiciatis tenetur sed est illo porro!</p>  
+    </section>
+</body>
+</html>
