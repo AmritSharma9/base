@@ -7,22 +7,7 @@
 
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript">
-    $(window).on('scroll',function(){
-        if($(window).scrollTop()){
-            $('nav').addClass('black');
-
-        }
-        else{
-            $('nav').removeClass('black');
-        }
-    })
-    $(document).ready(function(){
-        $(".menu h4").click(function(){
-            $("nav ul").toogleClass("active")
-        })
-    })
-    </script>
+ 
     
 </head>
 <body>
@@ -32,10 +17,7 @@
         </div>
     </div>
     <nav>   
-        <div class='logo'>
-            <img src="logo.png">
-        </div>
-       
+     
         <ul>
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Product</a></li>
